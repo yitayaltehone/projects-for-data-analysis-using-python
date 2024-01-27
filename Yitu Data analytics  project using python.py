@@ -11,12 +11,14 @@
 x=1983
 print(x)
 
-## filter
+# filter
 def is_even(n):
     return n%2==0
 num=[1,4,7,2,5,8,9,6,3,3]
 evens=list(filter(is_even, num))
+
 print(evens);
+
 # # Import liberaris
 
 # In[12]:
